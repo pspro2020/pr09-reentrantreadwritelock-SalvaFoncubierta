@@ -36,7 +36,7 @@ public class Almacen {
                 contador++;
             }
         }
-        Thread.sleep(1500);
+        Thread.sleep(500);
         System.out.printf("%s: el número %d aparece %d veces %s\n",Thread.currentThread().getName(), consulta + 1,
                 contador, LocalTime.now().format(dateTimeFormatter));
     }
